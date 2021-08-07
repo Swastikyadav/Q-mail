@@ -5,7 +5,7 @@ import mailBoxData from "../data/mailBoxData";
 
 function MailBox() {
   return (
-    <section className="w-80 h-screen border-r-2 mt-20 ml-20 overflow-y-scroll pb-20">
+    <section className="w-80 h-screen border-r-2 mt-20 ml-20 overflow-x-hidden overflow-y-scroll pb-20">
       <h2 className="text-gray-600 font-bold border-b-2 p-4">Mailbox</h2>
 
       {
