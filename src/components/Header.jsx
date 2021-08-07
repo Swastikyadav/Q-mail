@@ -29,7 +29,8 @@ function Header() {
       <Profile
         image="https://pbs.twimg.com/profile_images/1411339822942220294/cB2H_0Rm_400x400.jpg"
         name="Swastik Yadav"
-        position="Software Engineer"
+        designation="Software Engineer"
+        alignment="justify-center"
       />
     </header>
   );
