@@ -28,8 +28,8 @@ function Header() {
       <div className="flex justify-center items-center p-4">
         <img src="https://pbs.twimg.com/profile_images/1411339822942220294/cB2H_0Rm_400x400.jpg" alt="my-profile" className="rounded-full w-12"/>
         <span className="px-4 text-xs md:text-base">
-          <p>Swastik Yadav</p>
-          <p>Software Engineer</p>
+          <p className="text-gray-600 font-bold">Swastik Yadav</p>
+          <p className="text-gray-400">Software Engineer</p>
         </span>
         <ArrowDropDownLineIcon />
       </div>
