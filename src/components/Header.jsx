@@ -8,7 +8,7 @@ import NotificationBellIcon from "remixicon-react/Notification3LineIcon";
 
 function Header() {
   return (
-    <header className="border-b-2 h-20 w-full flex justify-between items-center md:justify-around">
+    <header className="border-b-2 h-20 w-full flex justify-between items-center md:justify-around fixed top-0 left-0 bg-white z-99">
       <div className="border-r-2 h-full p-4 flex justify-between items-center w-20 md:w-40">
         <IconsComponent bgColor="bg-green-400" iconColor="#fff" Icon={MailFillIcon} />
         <span className="font-bold text-gray-600 hidden md:inline">
@@ -23,7 +23,7 @@ function Header() {
 
       <div className="w-20 h-full border-l-2 border-r-2 justify-center items-center relative hidden md:flex">
         <NotificationBellIcon />
-        <NotificationBadge bgColor="bg-red-400" shape="rounded-full p-1" value="1" />
+        <NotificationBadge bgColor="bg-red-400" shape="rounded-full p-1" position="absolute" value="1" />
       </div>
 
       <Profile
