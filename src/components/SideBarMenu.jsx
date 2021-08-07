@@ -1,4 +1,4 @@
-import IconsComponent from "./IconsComponent";
+import IconsComponent from "../componentLibrary/IconsComponent";
 
 import AppsIcon from "remixicon-react/Apps2FillIcon";
 import MailOpenIcon from "remixicon-react/MailOpenFillIcon";

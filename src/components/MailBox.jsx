@@ -1,5 +1,5 @@
-import ButtonAdv from "./ButtonAdv";
-import Profile from "./Profile";
+import ButtonAdv from "../componentLibrary/ButtonAdv";
+import Profile from "../componentLibrary/Profile";
 
 import InboxIcon from "remixicon-react/Download2LineIcon";
 import DraftIcon from "remixicon-react/DraftFillIcon";

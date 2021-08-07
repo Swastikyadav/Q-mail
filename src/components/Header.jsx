@@ -1,6 +1,6 @@
-import Profile from "./Profile";
-import NotificationBadge from "./NotificationBadge";
-import IconsComponent from "./IconsComponent";
+import Profile from "../componentLibrary/Profile";
+import NotificationBadge from "../componentLibrary/NotificationBadge";
+import IconsComponent from "../componentLibrary/IconsComponent";
 
 import MailFillIcon from "remixicon-react/MailFillIcon";
 import SearchLineIcon from "remixicon-react/SearchLineIcon";
