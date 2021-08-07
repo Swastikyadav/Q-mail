@@ -28,22 +28,22 @@ function MailBox() {
       <h2 className="text-gray-600 font-bold border-b-2 p-4">Contact</h2>
 
       <Profile
-        image="https://pbs.twimg.com/profile_images/1411339822942220294/cB2H_0Rm_400x400.jpg"
+        image="https://pbs.twimg.com/profile_images/113282741/Picture_2_400x400.png"
         name="Swastik Yadav"
         position="Software Engineer"
       />
       <Profile
-        image="https://pbs.twimg.com/profile_images/1411339822942220294/cB2H_0Rm_400x400.jpg"
+        image="https://pbs.twimg.com/profile_images/821936367/salman_khan_Veer_400x400.jpg"
         name="Swastik Yadav"
         position="Software Engineer"
       />
       <Profile
-        image="https://pbs.twimg.com/profile_images/1411339822942220294/cB2H_0Rm_400x400.jpg"
+        image="https://pbs.twimg.com/profile_images/1303190121244549120/lG0RIxkS_400x400.jpg"
         name="Swastik Yadav"
         position="Software Engineer"
       />
       <Profile
-        image="https://pbs.twimg.com/profile_images/1411339822942220294/cB2H_0Rm_400x400.jpg"
+        image="https://pbs.twimg.com/profile_images/1215134273147109381/A7YcpYAF_400x400.jpg"
         name="Swastik Yadav"
         position="Software Engineer"
       />
