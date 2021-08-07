@@ -1,5 +1,6 @@
 import Profile from "./Profile";
 import NotificationBadge from "./NotificationBadge";
+import IconsComponent from "./IconsComponent";
 
 import MailFillIcon from "remixicon-react/MailFillIcon";
 import SearchLineIcon from "remixicon-react/SearchLineIcon";
@@ -9,9 +10,7 @@ function Header() {
   return (
     <header className="border-b-2 h-20 w-full flex justify-between items-center md:justify-around">
       <div className="border-r-2 h-full p-4 flex justify-between items-center w-20 md:w-40">
-        <div className="bg-green-400 p-6 w-2 h-2 rounded-full relative md:w-4 md:h-4">
-          <MailFillIcon color="#fff" className="absolute top-3 left-3" />
-        </div>
+        <IconsComponent bgColor="bg-green-400" iconColor="#fff" Icon={MailFillIcon} />
         <span className="font-bold text-gray-600 hidden md:inline">
           Q-mail
         </span>

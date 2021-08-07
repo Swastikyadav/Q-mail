@@ -1,8 +1,12 @@
 import Header from "./components/Header";
+import SideBarMenu from "./components/SideBarMenu";
 
 function App() {
   return (
-    <Header />
+    <>
+      <Header />
+      <SideBarMenu />
+    </>
   );
 }
 
