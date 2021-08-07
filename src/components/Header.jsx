@@ -1,4 +1,5 @@
 import Profile from "./Profile";
+import NotificationBadge from "./NotificationBadge";
 
 import MailFillIcon from "remixicon-react/MailFillIcon";
 import SearchLineIcon from "remixicon-react/SearchLineIcon";
@@ -23,7 +24,7 @@ function Header() {
 
       <div className="w-20 h-full border-l-2 border-r-2 justify-center items-center relative hidden md:flex">
         <NotificationBellIcon />
-        <span className="bg-red-400 rounded-full w-2 h-2 p-2 absolute text-sm p-1 left-10 bottom-10 text-white font-bold flex justify-center items-center">1</span>
+        <NotificationBadge bgColor="bg-red-400" shape="rounded-full p-1" value="1" />
       </div>
 
       <Profile
