@@ -5,3 +5,11 @@
 /* html {
   font-size: 13px;
 } */
+
+body {
+  white-space: pre-wrap;
+}
+
+.inbox-preview {
+  white-space: normal;
+}

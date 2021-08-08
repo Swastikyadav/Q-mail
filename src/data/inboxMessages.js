@@ -1,15 +1,21 @@
+import { nanoid } from "nanoid";
+
 const inboxMessages = [
   {
+    id: nanoid(),
     image: "https://lh3.googleusercontent.com/a-/AOh14Giue5X72dV7ugKgtN2jldn9PmuSzWaH_fYxxTbtCA=s70-p-k-rw-no",
     name: "Darius Foroux",
     designation: "Blogger",
     message: `I used to think taking action is the most important thing in life. You can talk and talk about all kinds of things, but if you never do anything, what’s the point?
-    
+
     Without action, there will be no progress. Now, let’s take it a step further. What if you want to have better results?
+
+    Or if you want to make a bigger impact with your actions?
     
-    Or if you want to make a bigger impact with your actions?`
+    Thank You!`
   },
   {
+    id: nanoid(),
     image: "https://lh3.googleusercontent.com/a-/AOh14GhrH5wh5CGfy3B2xTPpGOj2nBysnxEpf9Ll63WS=s70-p-k-rw-no",
     name: "James Clear",
     designation: "Author, Atomic Habits",
@@ -17,18 +23,25 @@ const inboxMessages = [
 
     "[Tennis champion] Novak Djokovic said in an interview with the Financial Times that "I can carry on playing at this level because I like hitting the tennis ball." The interviewer replied in surprise: "Are there really players who don't like hitting the ball?" Djokovic answered, "Oh yes. There are people out there who don't have the right motivation. You don't need to talk to them. I can see it."
     ​
-    If you can find the thing you do for its own sake, the compulsive piece of your process, and dial that up and up, beyond the imaginary ceiling for that activity you may be creating, my experience is the world comes to you for that thing and you massively outperform the others who don't actually like hitting that particular ball. I think the rest of career advice is commentary on this essential truth."`
+    If you can find the thing you do for its own sake, the compulsive piece of your process, and dial that up and up, beyond the imaginary ceiling for that activity you may be creating, my experience is the world comes to you for that thing and you massively outperform the others who don't actually like hitting that particular ball. I think the rest of career advice is commentary on this essential truth."
+    
+    Thanks for reading`
   },
   {
+    id: nanoid(),
     image: "https://lh3.googleusercontent.com/a-/AOh14GjLx6yCs9OdSqxPf_c1ff5BBnUtqh4YdtXfpibwKJg=s70-p-k-rw-no",
     name: "Preetam Nath",
     designation: "Founder, DelightChat",
     message: `☀️ Good Afternoon
     Today's Sunday Coffee has arrived a bit later than usual, but I promise I have something good for you.
     
-    Yesterday, while recording a video (coming soon) on building websites with Webflow and talking about Programmatic SEO, I opened up Google Search Console for the DailyHabits project after 2 months to find out what's happening.`
+    Yesterday, while recording a video (coming soon) on building websites with Webflow and talking about Programmatic SEO, I opened up Google Search Console for the DailyHabits project after 2 months to find out what's happening.
+    
+    Thank You!
+    - Preetam Nath`
   },
   {
+    id: nanoid(),
     image: "https://lh3.googleusercontent.com/a-/AOh14GhFWG0R45Efpf2yCBAL_w4WVruioAZNzBnGEaoT=s70-p-k-rw-no",
     name: "Well Paid Geek",
     designation: "Course Creator",
@@ -42,9 +55,12 @@ const inboxMessages = [
     
     Intermediate JavaScript: https://imp.i115008.net/0JmRjO​
     
-    Frontend Web Developer: https://imp.i115008.net/n1NWEV`
+    Frontend Web Developer: https://imp.i115008.net/n1NWEV
+    
+    - Well Paid Geek`
   },
   {
+    id: nanoid(),
     image: "https://lh3.googleusercontent.com/a-/AOh14GhEshkixcTEhiW5fwCbQ445uSrfEUhWJ2y7kVkIaQ=s70-p-k-rw-no",
     name: "Muskan Yadav",
     designation: "Student",
@@ -97,6 +113,7 @@ const inboxMessages = [
     For any queries contact Confirmtkt customer care at 08068243910.`
   },
   {
+    id: nanoid(),
     image: "https://lh3.googleusercontent.com/a-/AOh14GgdC9cLwP273sW0-eagC_10mLKtazIkp_t63pzW=s70-p-k-rw-no",
     name: "Team Instamojo",
     designation: "Finance Company",
@@ -129,7 +146,9 @@ const inboxMessages = [
     Team Instamojo.
     Follow us on social media for the latest business
     videos, tips, news and more!
-    `
+    
+    Thanking You
+    - Team Instamojo`
   },
 ]
 
