@@ -33,7 +33,7 @@ function Message({ showingBox, handleStateChange, messageBoxData }) {
             <p className="text-gray-500 w-11/12">
               Nothing to show here. Select a message from Inbox.
             </p>
-            <img src={NotFoundImage} alt="not-found-image" width="400" />
+            <img src={NotFoundImage} alt="not-found" width="400" />
           </div>
         )
       }
