@@ -4,13 +4,13 @@ import inboxMessages from "../data/inboxMessages";
 
 function Inbox() {
   return (
-    <section className="w-96 h-screen border-r-2 mt-20 overflow-y-scroll pb-20">
+    <section className="w-96 h-screen border-l-2 border-r-2 mt-20 overflow-y-scroll pb-20">
       <h2 className="text-gray-600 font-bold border-b-2 p-4">Recent</h2>
 
       {
         inboxMessages.map((data, idx) => {
           return (
-            <article className="relative border-b-2 hover:bg-green-100 cursor-pointer">
+            <article key={idx} className="relative border-b-2 hover:bg-green-100 cursor-pointer">
               <Profile
                 image={data.image}
                 name={data.name}

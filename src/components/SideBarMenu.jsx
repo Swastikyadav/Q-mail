@@ -4,7 +4,7 @@ import sidebarData from "../data/sideBarData";
 
 function SideBarMenu() {
   return (
-    <aside className="w-20 h-full border-r-2 flex flex-col justify-center items-center fixed top-20 left-0">
+    <aside className="hidden w-20 h-full border-r-2 lg:flex flex-col justify-center items-center fixed top-20 left-0">
       <section>
         {
           sidebarData.map((data, idx) => {
