@@ -31,6 +31,7 @@ class Main extends React.Component {
         <Inbox
           showingBox={this.state.showingBox}
           handleStateChange={this.handleStateChange}
+          messageId={this.state.messageBoxData && this.state.messageBoxData.id}
         />
         <Message
           showingBox={this.state.showingBox}

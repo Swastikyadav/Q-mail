@@ -2,7 +2,7 @@ import Profile from "../componentLibrary/Profile";
 
 import inboxMessages from "../data/inboxMessages";
 
-function Inbox({ showingBox, handleStateChange }) {
+function Inbox({ showingBox, handleStateChange, messageId }) {
   return (
     <section className={`${showingBox === "inbox" ? "block" : "hidden"} sm:block w-full sm:w-96 h-screen border-l-2 border-r-2 mt-20 overflow-y-scroll pb-20`}>
       <h2 className="text-gray-600 font-bold border-b-2 p-4">Recent</h2>
@@ -12,7 +12,7 @@ function Inbox({ showingBox, handleStateChange }) {
           return (
             <article
               key={data.id}
-              className="relative border-b-2 hover:bg-green-100 cursor-pointer"
+              className={`${data.id === messageId ? "bg-green-100" : ""} relative border-b-2 hover:bg-green-100 cursor-pointer`}
               onClick={() => handleStateChange("messagebox", data)}
             >
               <Profile
