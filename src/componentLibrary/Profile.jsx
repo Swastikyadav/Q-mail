@@ -1,6 +1,6 @@
 import ArrowDropDownLineIcon from "remixicon-react/ArrowDropDownLineIcon";
 
-function Profile({image, name, designation, alignment=""}) {
+function Profile({image, name, designation, alignment="", dropDownArrow=true}) {
   return (
     <div className={`flex ${alignment} items-center p-4`}>
       <img src={image} alt="my-profile" className="rounded-full w-12"/>
@@ -8,7 +8,7 @@ function Profile({image, name, designation, alignment=""}) {
         <p className="text-gray-600 font-bold">{name}</p>
         <p className="text-gray-400">{designation}</p>
       </span>
-      <ArrowDropDownLineIcon />
+      {dropDownArrow && <ArrowDropDownLineIcon />}
     </div>
   );
 }
